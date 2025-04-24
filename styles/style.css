@@ -58,7 +58,7 @@
   background-image: var(--gr-x), var(--gr-y), var(--shade);
   background-size: cover;
   background-attachment: scroll;
-  font-variation-settings: "wdht" 400;
+  font-variation-settings: "wdht" var(--fw-main-text);
   min-inline-size: 371px;
   min-block-size: 100dvb;
 }
@@ -111,7 +111,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: normal;
-  font-variation-settings: "wdht" 700;
+  font-variation-settings: "wdht" var(--fw-title-text);
 }
 
 .card__img-block {
@@ -160,7 +160,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: 21px; /* 116.667% */
-  font-variation-settings: "wdht" 400;
+  font-variation-settings: "wdht" var(--fw-main-text);
 }
 
 .card__btn-block {
