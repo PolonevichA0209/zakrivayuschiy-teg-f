@@ -111,7 +111,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: normal;
-  font-variation-settings: "wdht" var(--fw-title-text);
+  font-variation-settings: "wdht" 700;
 }
 
 .card__img-block {
@@ -160,7 +160,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: 21px; /* 116.667% */
-  font-variation-settings: "wdht" var(--fw-main-text);
+  font-variation-settings: "wdht" 400;
 }
 
 .card__btn-block {
