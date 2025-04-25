@@ -160,7 +160,6 @@
   font-size: 18px;
   font-style: normal;
   line-height: 21px; /* 116.667% */
-  font-variation-settings: "wdht" var(--fw-main-text);
 }
 
 .card__btn-block {
