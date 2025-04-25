@@ -12,11 +12,11 @@
     --heart-color: rgba(0, 0, 0, 1);
     --heart-bg-color: rgba(255, 0, 0, 1);
     --label-stroke-color: rgba(255, 255, 255, 1);
-    --card-padding: 25px;
+    --card-padding: 27px;
 
     --main-color: #000;
     --button-color: #fff;
-    --main-bg-color-2: #fff;
+    --btn-bg-color: #fff;
 
     --gr-x: repeating-linear-gradient(
     90deg,
