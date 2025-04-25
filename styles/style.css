@@ -109,8 +109,6 @@
   padding: 5px 10px;
   color: var(--main-color-text, #000);
   font-size: 18px;
-  font-style: normal;
-  line-height: normal;
   font-variation-settings: "wdht" var(--fw-title-text);
 }
 
