@@ -47,7 +47,7 @@
   background-image: var(--gr-x), var(--gr-y), var(--shade);
   background-size: cover;
   background-attachment: scroll;
-  font-variation-settings: "wdht" 400;
+  font-variation-settings: "wght" var(--fw-main-text);
   min-inline-size: 371px;
   min-block-size: 100dvb;
 }
@@ -98,7 +98,7 @@
   padding: 5px 10px;
   color: var(--main-color-text, #000);
   font-size: 18px;
-  font-variation-settings: "wdht" 785;
+  font-variation-settings: "wght" var(--fw-title-text);
 }
 
 .card__img-block {
