@@ -28,17 +28,6 @@
   }
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-}
-
 .content {
   display: grid;
   grid-template-columns: minmax(320px, 700px);
@@ -58,7 +47,7 @@
   background-image: var(--gr-x), var(--gr-y), var(--shade);
   background-size: cover;
   background-attachment: scroll;
-  font-variation-settings: "wdht" var(--fw-main-text);
+  font-variation-settings: "wdht" 400;
   min-inline-size: 371px;
   min-block-size: 100dvb;
 }
@@ -109,7 +98,7 @@
   padding: 5px 10px;
   color: var(--main-color-text, #000);
   font-size: 18px;
-  font-variation-settings: "wdht" var(--fw-title-text);
+  font-variation-settings: "wdht" 700;
 }
 
 .card__img-block {
