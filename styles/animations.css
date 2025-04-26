@@ -68,13 +68,18 @@
   transition: fill 0.3s linear 0.05s;
 }
 
+.like-icon .contour {
+  fill: var(--heart-color, #000);
+  transition: fill 0.1s linear;
+}
+
 .like-icon.is-liked .contour {
   fill: var(--heart-bg-color, #ff0000);
   transition: fill 0.3s linear 0.06s;
 }
 
 .like-icon.is-liked .heart {
-  transform-origin: 15px 15px;
+  transform-origin: center;
   animation: heart-scale 0.3s ease-in 0.1s;
 }
 

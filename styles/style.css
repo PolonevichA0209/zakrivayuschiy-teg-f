@@ -170,14 +170,14 @@
   position: relative;
   border: 2px solid var(--main-color);
   color: var(--button-color);
-  background-color: var(--btn-bg-color);
+  background-color: transparent;
+  transition: box-shadow 0.3s ease;
   cursor: pointer;
 }
 
 .btn:focus {
   box-shadow: 2px 2px 0px 0px #000;
   outline: none;
-  transition: box-shadow 0.3s ease;
 }
 
 .btn svg {
@@ -227,6 +227,7 @@
   gap: 5px;
   width: clamp(308px, 100%, 335px);
   padding: 15px 17px;
+  background-color: var(--btn-bg-color);
 }
 
 .modal {
